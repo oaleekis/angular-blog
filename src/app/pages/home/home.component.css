@@ -1,0 +1,9 @@
+.posts {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}

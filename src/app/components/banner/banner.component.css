@@ -1,0 +1,17 @@
+.container__banner {
+    color: #fff;
+}
+
+.container__banner > h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container__banner > hr {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
