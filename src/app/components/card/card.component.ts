@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -10,4 +10,8 @@ import { CommonModule } from '@angular/common';
 })
 export class CardComponent {
 
+  @Input()
+  photoCover: string = "https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png";
+  cardTitle: string = "Title";
+  cardDescription: string = "Description";
 }
